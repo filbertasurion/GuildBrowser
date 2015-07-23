@@ -60,6 +60,7 @@
 		CB9FDD3415E9B34900B3713E /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2715E9B34900B3713E /* WoWApiClient.m */; };
 		CB9FDD3515E9B34900B3713E /* WowItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2915E9B34900B3713E /* WowItemView.m */; };
 		CB9FDD3615E9B34900B3713E /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
+		E9DC8CE71B60BAB700A33F9B /* iOSTeam_Provisioning_Profile_.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = E9DC8CE61B60BAB700A33F9B /* iOSTeam_Provisioning_Profile_.mobileprovision */; };
 		E9E891011B5E2C8B00BC5390 /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E891001B5E2C8B00BC5390 /* WowUtilsTests.m */; };
 		E9E891041B5E327A00BC5390 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = E9E891021B5E327A00BC5390 /* character.json */; };
 		E9E891051B5E327A00BC5390 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = E9E891031B5E327A00BC5390 /* guild.json */; };
@@ -164,6 +165,7 @@
 		CB9FDD2915E9B34900B3713E /* WowItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowItemView.m; sourceTree = "<group>"; };
 		CB9FDD2A15E9B34900B3713E /* WoWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoWUtils.h; sourceTree = "<group>"; };
 		CB9FDD2B15E9B34900B3713E /* WoWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoWUtils.m; sourceTree = "<group>"; };
+		E9DC8CE61B60BAB700A33F9B /* iOSTeam_Provisioning_Profile_.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = iOSTeam_Provisioning_Profile_.mobileprovision; sourceTree = "<group>"; };
 		E9E890F51B5E298C00BC5390 /* GuildBrowserLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E890F81B5E298C00BC5390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9E891001B5E2C8B00BC5390 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				E9DC8CE61B60BAB700A33F9B /* iOSTeam_Provisioning_Profile_.mobileprovision */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
@@ -507,6 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9FDC4A15E9872D00B3713E /* InfoPlist.strings in Resources */,
+				E9DC8CE71B60BAB700A33F9B /* iOSTeam_Provisioning_Profile_.mobileprovision in Resources */,
 				CB9FDC5315E9872D00B3713E /* MainStoryboard.storyboard in Resources */,
 				CB9FDD0215E9B31400B3713E /* bg.png in Resources */,
 				CB9FDD0315E9B31400B3713E /* bg@2x.png in Resources */,
